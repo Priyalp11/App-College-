@@ -1,0 +1,93 @@
+.Sidbear 
+{
+  min-height: 100px;
+}
+
+/* SignIn.css */
+
+.sign-in-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(102, 102, 250); /* Background color for the entire container */
+}
+
+.sign-in-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* Adjust the spacing between form elements */
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(253, 201, 104);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+}
+
+.sign-in-container h1 {
+  font-size: 24px;
+  color: #333; /* Text color for the heading */
+}
+
+.sign-in-container label {
+  font-size: 16px;
+  color: #666; /* Text color for labels */
+}
+
+.sign-in-container input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.sign-in-container button {
+  padding: 10px 20px;
+  background-color: #70b5ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sign-in-container button:hover {
+  background-color: #6bb3ff;
+}
+
+.link-btn {
+  margin-top: 20px; /* Increased margin to separate the buttons */
+  font-size: 14px;
+  color: #007bff;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.link-btn:hover {
+  color: #e9eff5;
+}
+      
+.label{
+  text-emphasis-color: rgb(141, 108, 48);
+}
+
+h1.detailsPageTitle {
+  text-align: center;
+  background-color: #fcedfc;
+  color: black; /* Set the text color to black */
+}
+
+h5 {
+  text-align: center;
+  background-color: #fcedfc;
+  color: black; 
+  /* Set the text color to black */
+}
+
